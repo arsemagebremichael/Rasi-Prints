@@ -1,0 +1,193 @@
+body{
+    overflow-x: hidden;
+}
+#worldWide-advert{
+    background-color: #3E3E3E;
+    color: white;
+    text-align: center;
+    padding: 1% 0 ;
+    font-size: large;
+    margin-top: -0.3%;
+    
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 1%;
+    a{     
+        font-size: x-large;
+        
+        text-decoration: none;
+        color: white;
+        justify-content: space-between;   
+        
+    }
+    h5{
+        margin-top: 0;
+        font-size: xx-large;
+    }
+    i{
+        font-size: xx-large;
+        
+    }
+    
+
+}
+.nav-bar-options{
+    display: flex;
+    margin-bottom: 0;
+}
+.rasi-prints{
+  background-repeat: no-repeat;
+  margin-top: -1%;
+  background-image:linear-gradient(rgba(34, 33, 33, 0.5),rgba(88, 82, 82, 0.5)),url('images/pillows1.webp');
+  background-size: cover;
+
+}
+.rasi-prints-motto{
+    color: white;
+    line-height: 1.3;
+    width: 100%;
+    justify-content: center;
+    padding: 5% 0 20%;
+    h1{ text-align: center;
+        margin: auto;
+        font-size: 650%;
+        width: 70%;
+    }
+    p{
+        text-align: center;
+        margin: auto;
+        width: 40%;
+        font-size: 26px;
+    }
+   
+}
+#contact-us-button{
+        font-size: x-large;
+        text-align: center;
+        margin-top:3%;
+        padding: 1% 6%;
+        margin-left: 42%;
+    
+}
+.number1-screen-company{
+    margin-top: 1.5%;
+    hr{
+        
+        font-weight: bolder;
+    }
+    h2{
+        font-size: 300%;
+        font-weight: lighter;
+        text-align: center;
+    }
+}
+.about-rasi-screen{
+    padding: 7%;
+    display: flex;
+    width: 90%;
+    gap: 8%;
+    
+}
+.about-rasi-screen img{
+    width: 42%;
+    border-radius: 2rem;
+}
+.about-rasi-screen-text{
+width: 50%;
+h4{
+    font-size: x-large;
+    font-weight: lighter;
+    
+}
+h2{
+
+    width: 75%;
+font-size: 400%;
+line-height: 1.5;
+}
+
+}
+#know-more{
+    padding: 3% 7%;
+    border-radius: 3rem;
+    font-size: x-large;
+    i{
+        color: black;
+    }
+}
+#contact-us-button2{
+    padding: 3% 7%;
+    border-radius: 3rem;
+    font-size: x-large;
+    i{
+        color: black;
+    }
+
+}
+
+.qualities-of-rasi{
+    display: flex;
+    justify-content: space-between; 
+    padding: 2% 5%;
+    background-color: aquamarine;
+    h4{
+        font-size: xx-large;line-height: 0;
+    }
+    p{
+        font-size: xlarge;
+    }
+}
+.screen-printing-techniques{
+    width: 95%;
+    padding-top: 10%;
+    margin: 0 auto;
+    justify-content: center;
+    h1{
+        font-size: 450%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 2%;
+        
+    }
+    
+   
+}
+
+#possiblities-with-Rasi{
+    text-align: center;
+    font-size: 170%;
+    color: darkgray;
+    width: 52%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.printing-methods{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+    
+    h3{
+        font-size: 250%;
+        width: 60%;
+    }
+    
+    p{
+       
+        width: 80%;
+    }
+  
+}
+.printing-methods img{
+    width: 90%;
+    border-radius: 1.5rem;
+}
+#traditionalimg{
+    height: 655px;
+    
+    }
