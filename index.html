@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/bbdf563758.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/bbdf563758.js" crossorigin="anonymous"></script>
     <title>behance-Rasi-Landing-Page</title>
 </head>
 
@@ -25,7 +26,7 @@
                 <a href="">Gallery</a>
                 <a href="">Contact</a>
             </div>
-            <i class="fa-solid fa-phone-volume"></i>
+            <i id="phone-icon" class="fa-solid fa-phone-volume"></i>
         </nav>
         <div class="rasi-prints-motto">
             <h1>Elevating Every Print With Precision And Passion.</h1>
@@ -45,33 +46,41 @@
         <div class="about-rasi-screen-text">
             <h4>Rasi Screen Printing</h4>
             <h2>Timeless Artistry, Modern Sophistication</h2>
-            <p></p>
+            <p>At Rasi Scrren Printing, we interwine the rich heritage of traditional craftsmanship with contemporary
+                flair to bring you a unique fusion of art and fashion. With a passion for preserving cultural
+                aesthetics, we meticulously handcraft each piece, celebrating the intricate beauty ofscreen printing.
+                Join us on a journey where tradition meets innovation, and let Rasi Screen Printing Adorn your world.
+            </p>
             <div>
-                <button id="know-more" type="button">Know more <i class="fa-thin fa-arrow-right"></i></button>
-                <button id="contact-us-button2">Contact us</button>
+                <button id="know-more" type="button">Know more <i class="fa-solid fa-arrow-right"></i></button>
+                <button id="contact-us-button2">Contact us <i class="fa-thin fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
     <div class="qualities-of-rasi">
-        <div>
+        <div class="qualities">
+            <i class="fa-solid fa-trophy"></i>
             <div>
                 <h4>Premium Quality</h4>
                 <p>Crafted to Perfection</p>
             </div>
         </div>
-        <div>
+        <div class="qualities">
+            <i class="fa-solid fa-award"></i>
+            
             <div>
                 <h4>Warranty Protection</h4>
                 <p>Guaranteed Excellence</p>
             </div>
         </div>
-        <div>
-            <div>
+        <div class="qualities">
+            <i class="fa-solid fa-truck-fast"></i>            <div>
                 <h4>Timely Shipping</h4>
-                <p>Pr0mpt Delivery Assurance</p>
+                <p>Prompt Delivery Assurance</p>
             </div>
         </div>
-        <div>
+        <div class="qualities">
+            <i class="fa-brands fa-intercom"></i>
             <div>
                 <h4>Suitable Artistry</h4>
                 <p>Eco-Friendly Practices</p>
@@ -81,16 +90,18 @@
     </div>
     <div class="screen-printing-techniques">
         <h1>Rasi's Array of Screen Printing Techniques</h1>
-        <p id="possiblities-with-Rasi">Dive into the world of possiblities with Rasi's diverse range of screen printing techniques. From traditional
+        <p class="possiblities-with-Rasi">Dive into the world of possiblities with Rasi's diverse range of screen
+            printing techniques. From traditional
             methods to cutting-edge innovations.</p>
         <div class="printing-methods">
-            <div >
+            <div>
                 <img id="traditionalimg" src="images/traditional2.png" alt="traditional img">
                 <div>
                     <h3>Traditional Textile Screen Printing</h3>
                     <i class="fa-thin fa-arrow-right"></i>
                 </div>
-                <p>This method extensively employed in the fashion and apparel industry for printing design onto garment, fabrics, and accessories.</p>
+                <p>This method extensively employed in the fashion and apparel industry for printing design onto
+                    garment, fabrics, and accessories.</p>
             </div>
             <div>
                 <img src="images/advanced.png" alt="advanced img">
@@ -98,20 +109,176 @@
                     <h3>Advanced UV Screen Printing</h3>
                     <i class="fa-thin fa-arrow-right"></i>
                 </div>
-                <p>UV screen printing has gined popularity due to its ability to cure instantly when exposed to ultraviolet light, resulting in fast production</p>
+                <p>UV screen printing has gined popularity due to its ability to cure instantly when exposed to
+                    ultraviolet light, resulting in fast production</p>
             </div>
             <div>
                 <img src="images/process.png" alt="process img">
                 <div>
-                    
+
                     <h3>Four-Color Process Printing</h3>
                     <i class="fa-thin fa-arrow-right"></i>
                 </div>
-                <p>Also known as CMYK printing, this method is widely used for reproducing full-color images with a broad range of tones and gradients.</p>
+                <p>Also known as CMYK printing, this method is widely used for reproducing full-color images with a
+                    broad range of tones and gradients.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="client-praise">
+        <h1>Client Praise for Rasi Screen Printing</h1>
+        <p class="possiblities-with-Rasi">Discover why clients are singing praises for Rasi Screen Printing. From
+            impecable attention to detail to timely delivery, our dedication to excellence ensure that every exceeds
+            expectations.</p>
+        <div class="client-companies">
+            <div class="individual-client-companies">
+                <img src="images/adiyata.png" alt="adiyata">
+                <div>
+                    <h3>Aditya Birla</h3>
+                    <p>Garment Industry</p>
+                </div>
+            </div>
+            <div class="individual-client-companies">
+                <img src="images/arvind.png" alt="arvind">
+                <div>
+                    <h3>Arvimd Pvt. Ltd</h3>
+                    <p>Garment Industry</p>
+                </div>
+            </div>
+            <div class="individual-client-companies">
+                <img src="images/raymond.png" alt="raymond mills">
+                <div>
+                    <h3>Adiyata Birla</h3>
+                    <p>Garment Industry</p>
+                </div>
             </div>
         </div>
     </div>
+    <div class="feed-back">
+        <div class="feed-back-from-manjunath">
+            <h3>High Quality Printing and On-Time!!</h3>
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>We are incredibly impressed with the exceptional service and quality provided by Rasi Screen Printing. Their
+                attention to detail, commitment to delivering on time, and the level of professionalism displayed throughout our
+                collabration have been outstanding. Rasi's expertise in screen printing has consistently exceeded our
+                expectations,ensuring that our branding and promotional materials are of the highest standard.</p>
+            <p>We are grateful for their partnership and highly recommend Rasi Screen Printing to anyone in need of top-notch
+                printing services.</p> <span>~Mr. Manjunath Gowda/ CFO</span>
 
+        </div>
+        <img src="images/pillowCase3.webp" alt="pillow case">
+
+    </div>
+    <div class="best-products">
+        <h1>Showcasting Our Best and Proudest Works</h1>
+        <p class="possiblities-with-Rasi">Explore the captivating world of Rasi's screen printing mastery, exceptional
+            creations imbued with precision, innovation, and enduring sophostication.</p>
+        <div class="print-samples">
+            <img src="images/clothes-rack.jpg" alt="clothes-rack">
+            <img src="images/bedsheet.avif" alt="bedsheet">
+            <img src="images/dress.jpg" alt="">
+        </div>
+        <img id="woman-with-scarf" src="images/woman2.jpeg" alt="woman with designed scarf">
+    </div>
+    <div>
+        <h1>Reach Out to Rasi Screen Printing Today!</h1>
+        <p class="possiblities-with-Rasi">Have questions or ready to start your next printing project? Don't hesitate to
+            contact us! Our friendly team
+            at Rasi Screen Printing is here to assist you every step of the way.</p>
+
+        <div class="addresses">
+            <img id="map" src="images/map1.png" alt="map">
+            <div class="addresses-detail">
+                <h1>Contact Us</h1>
+                <div class="addresses-description">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Phone Number</h4>
+                        <p>+91 82927726389 +91 82927726389</p>
+                    </div>
+                </div>
+                <div class="addresses-description">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>1221, beach road, kozhikode-560068</p>
+                    </div>
+                </div>
+                <div class="addresses-description">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>Everyday, 09:00 am to 10:00pm</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="Rasi-footer">
+            <img src="images/RP.jpeg" alt="RPlogo">
+            <div class="what-makes-us-defferent">
+                <h4>WE ARE THE BEST!</h4>
+                <P>Rasi is a premier destination for those seeking unparalleled excellence in screen printing services.
+                    With a rich legacy of craftsmanship and innovation, we pride ourselves on delivering superior
+                    quality prints that captivate and inspire. From our state-of-the-art facilities.</P>
+            </div>
+            <div>
+                <h3>ACCOUNTS</h3>
+                <ul><a href="index.html">Facebook</a></ul>
+                <ul><a href="index.html">Instagram</a></ul>
+                <ul><a href="index.html">Twitter</a></ul>
+                <ul><a href="index.html">Lnkedin</a></ul>
+                <ul><a href="index.html">G-mail</a></ul>
+            </div>
+            <div>
+                <h3>SITEMAP</h3>
+                <ul><a href="index.html">Home</a></ul>
+                <ul><a href="index.html">About us</a></ul>
+                <ul><a href="index.html">Products</a></ul>
+                <ul><a href="index.html">Gallery</a></ul>
+                <ul><a href="index.html">Contact Us</a></ul>
+            </div>
+            <div class="head-office-location">
+                <h3>HEAD OFFICE</h3>
+                <p>No 712, Dharapuram Road 60 Feet Road Dharapuram Road Tirupur, Tirupur-641605 (Veliyankadu)</p>
+                <div class="contact-platforms">
+                    <div>
+                        <div class="contacts">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>6238641240</span>
+                        </div>
+                        <div class="contacts">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9745847008</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contacts">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9744723238</span>
+                        </div>
+                        <div class="contacts">
+                            <i class="fa-solid fa-square-envelope"></i>
+                            <span>rasprinting1989@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copy-right">
+            <p>Copyright 2024, All Rights Reserved by Galvin Design Studio.</p>
+        </div>
+    </footer>
 
 
 </body>
