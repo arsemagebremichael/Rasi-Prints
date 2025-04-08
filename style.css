@@ -1,8 +1,9 @@
 body {
     overflow-x: hidden;
     font-family: poppins;
-    margin-left: -3%;
-    width: 106%;
+    margin-left: -1%;
+    width: 102%;
+    box-sizing: border-box;
 }
 
 
@@ -37,6 +38,26 @@ p{
 
 }
 
+/* .navbar-print {
+    display: flex;
+    margin-left: 10%;
+    margin-top: -25px;
+}
+.navbar {
+    font-family: Poppins;
+    margin-left: 20%;
+    gap: 40px;
+    display: flex;
+    margin-top: 25px;
+}
+.navbar i{
+    margin-left: 250px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+} */
+
 nav {margin-top: -1%;
     width: 90%;
     margin: auto;
@@ -69,6 +90,8 @@ nav {margin-top: -1%;
 }
 
 .nav-bar-options {
+    margin-left: -15%;
+    gap: 20%;
     display: flex;
     margin-bottom: 0;
 }
@@ -89,7 +112,6 @@ nav {margin-top: -1%;
     width: 100%;
     justify-content: center;
     padding: 1% 0 20%;
-
     h1 {
         text-align: center;
         margin: auto;
@@ -420,7 +442,9 @@ h1 {
     display: flex;
     width: 90%;
     margin: auto;
-
+    h1{
+        font-size: 150%;
+    }
 
 }
 
@@ -533,6 +557,7 @@ footer img {
 
 
 
+
 /* Query */
 
 @media (max-width: 500px) and (min-width: 300px) {
@@ -596,7 +621,8 @@ footer img {
 
     #contact-us-button {
         display: block;
-        margin: 3% auto;
+        margin: 3% 40%;
+        
         padding: 2% 10%;
     }
 
@@ -624,6 +650,9 @@ footer img {
         width: 100%;
         h2 {
             font-size: 200%;
+        }
+        h4{
+            text-align: center;
         }
     }
     
@@ -715,46 +744,164 @@ footer img {
     .head-office-location {
         width: 100%;
     }
-}
-
-/* 
-@media (max-width: 500px) and (min-width: 300px) {
-    
-    body{
+} 
+@media (max-width: 1035px) and (min-width: 501px) {
+    body {
         overflow-x: hidden;
-        margin-left: -3%;
-        margin-top: -1%;
-        width: 103%;
+        scrollbar-width: none;
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
     }
     #worldWide-advert {
-        margin-top: -1%;
-        font-size: medium;
-    }
-    .rasi-prints{
+        margin-top: 0;
+        font-size: large;
 
-        background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url('images/mobileback.webp');
-        margin-top: -5%;
-     h5{
-        font-size: x-large;
-     }
     }
-    #phone-icon{
-        
-        position: absolute;
-        right: 0;
+    .rasi-prints {
+        background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url('images/mobileback.webp');
+        margin-top: -3%;
     }
     nav {
-        position: relative;
-        flex-direction: column;
-        align-items: flex-start;
+        max-width: 100%;
+        padding: 3% 2%;
+        flex-direction: row;
+        justify-content: space-between;
     }
-    .nav-bar-options{
-        font-size: medium;
-
-        flex-direction: column;
-        align-items: flex-start;
-  
+    .nav-bar-options {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        a {
+            font-size: medium;
+            margin: 0 10px;
+        }
     }
-    
+    #phone-icon {
+        position: static;
+        font-size: large;
+    }
+    .rasi-prints-motto {
+        h1 {
+            font-size: 300%;
+            width: 85%;
+        }
+        p {
+            font-size: large;
+            width: 75%;
+        }
+    }
+    #contact-us-button {
+        display: inline-block;
+        margin: 2% auto;
+        padding: 1.5% 8%;
+    }
+    .number1-screen-company h2 {
+        font-size: 175%;
+    }
+    .about-rasi-screen {
+        flex-direction: column;
+        padding: 4%;
+        gap: 3%;
+        img {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    #know-more {
+        margin-left: 10%;
+        margin-top: 1%;
+        padding: 3%;
+    }
+    .about-rasi-screen-text {
+        
+        margin: 5% auto;
+        width: 90%;
+        h2 {
+            text-align: center;
+            font-size: 225%;
+        }
+    }
+    .qualities-of-rasi {
+        max-width: 100%;
+        flex-direction: row;
+        padding: 4% 1%;
+        
+        h4{
+            font-size: 100%;
+            line-height: 1;
+        }
+        p{
+            line-height: 1;
+            margin-top: -1%;
+        }
 
-} */
+    }
+    .qualities {
+        width: 30%;
+        justify-content: flex-start;
+    }
+    .printing-methods {
+        flex-direction: row;
+        margin-left: 0;
+        gap: 5%;
+    }
+    .printing-methods img {
+        width: 45%;
+        height: auto;
+    }
+    .client-companies {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    .individual-client-companies {
+        width: 45%;
+    }
+    .feed-back {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    .feed-back-from-manjunath {
+        width: 45%;
+    }
+    .feed-back img {
+        width: 100%;
+        height: auto;
+    }
+    .print-samples {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    .print-samples img {
+        width: 45%;
+        height: auto;
+    }
+    #woman-with-scarf {
+        width: 100%;
+    }
+    .addresses {
+        flex-direction: row;
+        gap: 3%;
+    }
+    #map {
+        width: 60%;
+    }
+    .addresses-detail {
+        position: static;
+        margin: 3% 0;
+        padding: 3%;
+        width: 35%;
+    }
+    .Rasi-footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    .what-makes-us-defferent,
+    .head-office-location {
+        width: 45%;
+    }
+}
