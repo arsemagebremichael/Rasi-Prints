@@ -38,25 +38,6 @@ p{
 
 }
 
-/* .navbar-print {
-    display: flex;
-    margin-left: 10%;
-    margin-top: -25px;
-}
-.navbar {
-    font-family: Poppins;
-    margin-left: 20%;
-    gap: 40px;
-    display: flex;
-    margin-top: 25px;
-}
-.navbar i{
-    margin-left: 250px;
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-} */
 
 nav {margin-top: -1%;
     width: 90%;
@@ -69,7 +50,6 @@ nav {margin-top: -1%;
     a {
         font-size: x-large;
         font-family: poppins;
-
         text-decoration: none;
         color: white;
         justify-content: space-between;
@@ -91,7 +71,7 @@ nav {margin-top: -1%;
 
 .nav-bar-options {
     margin-left: -15%;
-    gap: 20%;
+    gap: 10%;
     display: flex;
     margin-bottom: 0;
 }
@@ -235,9 +215,11 @@ nav {margin-top: -1%;
     border: rgb(54, 53, 53) 1px solid;
 
     i {
+        font-size: xx-large;
+        padding-left: 2;
+        transform: rotate(-45deg);
         color: black;
     }
-
 }
 #contact-us-button2:hover{
     margin-right: 3%;
@@ -330,7 +312,18 @@ h1 {
     border-radius: 1.5rem;
     height: 655px;
 }
-
+.printing-methods-icon{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+    i{
+        padding: 5%;
+        background-color: #E6F2E4;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-weight: light;
+    }
+}
 .client-praise {
     p {
         width: 60%;
@@ -374,6 +367,17 @@ h1 {
 .individual-client-companies:hover{
     transform: scale(1.2);
 }
+.collaborators-logo{
+
+    width: 90%;
+    display: flex;
+    margin: 5% auto 0 ;
+    justify-content: space-between;
+    img{
+        width: 150px;
+        height: 100px;
+    }
+}
 .best-products {
     width: 90%;
     margin: auto;
@@ -394,11 +398,11 @@ h1 {
 
 #woman-with-scarf {
     padding-top: 2%;
-    width: 1810px;
+    width: 1750px;
 
     img {
         border: 1px solid transparent;
-        border-radius: 1rem;
+        border: solid 1px solid transparent;
     }
 
 }
@@ -511,8 +515,8 @@ h1 {
 footer {
 
     color: white;
-    background-color: rgb(26, 26, 44);
-
+    background-color: rgb(17, 17, 31);
+    margin-bottom: -1%;
 }
 
 footer img {
@@ -552,7 +556,10 @@ footer img {
     text-align: center;
     padding: 1%;
     font-size: small;
-    color: white;
+    p{
+        color: white;
+
+    }
 }
 
 
