@@ -22,7 +22,7 @@ button {
 }
 p{
     font-family: poppins;
-    font-size: 120%;
+    font-size: 18px;
     color: rgb(83, 82, 82);
     line-height: 1.7;
 }
@@ -115,14 +115,14 @@ nav {margin-top: -1%;
 
 #contact-us-button {
     color: white;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     border: transparent;
     border-radius: 1rem;
     background: transparent;
     font-size: x-large;
     text-align: center;
     margin-top: 3%;
-    padding: 1% 6%;
+    padding: 1.5% 6%;
     margin-left: 42%;
 
 }
